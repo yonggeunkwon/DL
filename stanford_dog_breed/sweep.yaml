@@ -1,0 +1,12 @@
+program: sweep.py
+method: grid
+metric:
+  goal: minimize
+  name: val loss
+parameters:
+  BATCH_SIZE:
+    values: [32, 64, 128]
+  EPOCH:
+    values: [100, 200]
+  LR:
+    values: [0.001, 0.0001, 0.00001]
