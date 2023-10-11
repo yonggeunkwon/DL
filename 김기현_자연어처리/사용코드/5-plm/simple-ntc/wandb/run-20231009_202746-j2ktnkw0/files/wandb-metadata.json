@@ -1,0 +1,176 @@
+{
+    "os": "Linux-6.2.0-33-generic-x86_64-with-glibc2.17",
+    "python": "3.8.17",
+    "heartbeatAt": "2023-10-09T11:27:47.709772",
+    "startedAt": "2023-10-09T11:27:46.958274",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model_fn",
+        "./simple_ntc/models/review.hft.kykim-bert.pth",
+        "--train_fn",
+        "./data/review.sorted.uniq.refined.shuf.train.tsv",
+        "--pretrained_model_name",
+        "kykim/bert-kor-base",
+        "--batch_size_per_device",
+        "96",
+        "--n_epochs",
+        "2"
+    ],
+    "state": "running",
+    "program": "finetune_plm_hftrainer.py",
+    "codePath": "finetune_plm_hftrainer.py",
+    "git": {
+        "remote": "git@github.com:kh-kim/simple-ntc.git",
+        "commit": "d715070aba0f3f5e3f66b468db6febf959d4d5ba"
+    },
+    "email": "dydrms2900@gmail.com",
+    "root": "/home/kwonyonggeun/workspace/DL/\uae40\uae30\ud604_\uc790\uc5f0\uc5b4\ucc98\ub9ac/\u1109\u1161\u110b\u116d\u11bc\u110f\u1169\u1103\u1173/5-plm/simple-ntc",
+    "host": "kwonyonggeun",
+    "username": "kwonyonggeun",
+    "executable": "/home/kwonyonggeun/anaconda3/envs/DL/bin/python3",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2191.3341250000003,
+        "min": 800.0,
+        "max": 4716.666666666667
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 800.082,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 1630.259,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 1687.36,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 1792.745,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 800.457,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 1731.692,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 1277.442,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 1673.185,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 920.042,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        }
+    ],
+    "disk": {
+        "total": 915.3232879638672,
+        "used": 62.001461029052734
+    },
+    "gpu": "NVIDIA GeForce RTX 3090 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090 Ti",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 125.53475952148438
+    }
+}
