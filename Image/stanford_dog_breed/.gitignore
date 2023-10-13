@@ -1,0 +1,5 @@
+dog_images/
+.DS_Store
+*.pyc
+__pycache__/
+models/
