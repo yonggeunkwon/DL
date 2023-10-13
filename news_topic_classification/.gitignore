@@ -1,2 +1,7 @@
 /Data/*
 /Data
+.checkpoints
+.DS_Store
+*.pyc
+__pycache__/
+models/
